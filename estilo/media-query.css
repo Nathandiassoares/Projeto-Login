@@ -1,42 +1,42 @@
 @charset "UTF-8";
 
 @media screen and (min-width:700px) and (max-width:992px) {
-
     section#login {
-        color: white;
-    }
-    section#login {
-        width: 80vw;
-        color: purple;
-        
+        width: 80vw; 
     }
     section#login > div#imagem {
-        width:30%;
-        float: left;
-        height: 100%;
-        
+        float:left;
+        width:40%;
+        height:100%; 
     }
     section#login > div#formulario {
-        width:70%;
-        height: 100%;
+        float:right;
+        width:60%;
+        height:100%;
     }
+    
 }
 
 @media screen and (min-width:990px)  {
     section#login {
-        width: 920px;
-        color: purple;
-        
+        width:920px;
     }
     section#login > div#imagem {
-        float: left;
+        float:right;
         width:50%;
-        height: 100%;
-        
+        height:100%;
     }
     section#login > div#formulario {
-        float: left;
+        float:left;
         width:50%;
-        height: 100%;
+        height:100%;
+    }
+    div#formulario > h1 {
+        text-align:center;
+        font-size:2em;
+    }
+    
+    div#formulario > p {
+        font-size:1.2em;
     }
 }
